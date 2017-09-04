@@ -12,6 +12,7 @@
 		17F216441F5D292000606B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F216421F5D292000606B1F /* Main.storyboard */; };
 		17F216461F5D292000606B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F216451F5D292000606B1F /* Assets.xcassets */; };
 		17F216491F5D292000606B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F216471F5D292000606B1F /* LaunchScreen.storyboard */; };
+		17F216521F5D2F4900606B1F /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F216511F5D2F4900606B1F /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		17F216451F5D292000606B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F216481F5D292000606B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F2164A1F5D292000606B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F216511F5D2F4900606B1F /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		17F2163D1F5D292000606B1F /* App-Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				17F216501F5D2F1300606B1F /* Views */,
 				17F2163E1F5D292000606B1F /* AppDelegate.swift */,
 				17F216401F5D292000606B1F /* ViewController.swift */,
 				17F216421F5D292000606B1F /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				17F2164A1F5D292000606B1F /* Info.plist */,
 			);
 			path = "App-Swoosh";
+			sourceTree = "<group>";
+		};
+		17F216501F5D2F1300606B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17F216511F5D2F4900606B1F /* BorderButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				17F216411F5D292000606B1F /* ViewController.swift in Sources */,
 				17F2163F1F5D292000606B1F /* AppDelegate.swift in Sources */,
+				17F216521F5D2F4900606B1F /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
