@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -89,19 +89,15 @@
                             <constraint firstAttribute="bottom" secondItem="5e5-ye-JbX" secondAttribute="bottom" constant="20" symbolic="YES" id="vBF-Qv-yN9"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bgimg" destination="ezm-Hc-S0f" id="nQU-HZ-ShO"/>
-                        <outlet property="swoosh" destination="Qbf-eZ-RHw" id="Lne-7f-0HL"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="mQQ-kZ-rhC">
             <objects>
-                <viewController id="gZ6-HP-YTG" sceneMemberID="viewController">
+                <viewController id="gZ6-HP-YTG" customClass="LeagueVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vqz-Ww-A4L"/>
                         <viewControllerLayoutGuide type="bottom" id="OvQ-ZW-P3U"/>
@@ -189,7 +185,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="rJu-fS-uzf" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSeque:" id="Yzv-Iz-ac0"/>
+                                    <segue destination="rJu-fS-uzf" kind="unwind" unwindAction="unwindFromLeagueVCWithUnwindSeque:" id="df8-6J-g77"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -218,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="890.39999999999998" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="2c0-TE-hFI">
             <objects>
-                <viewController id="BHy-in-Lhf" sceneMemberID="viewController">
+                <viewController id="BHy-in-Lhf" customClass="SkillVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UHX-Ks-CtG"/>
                         <viewControllerLayoutGuide type="bottom" id="dOn-aX-WUl"/>
