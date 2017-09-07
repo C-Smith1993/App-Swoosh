@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x44-I2-xce">
-                                <rect key="frame" x="77" y="268" width="260" height="47"/>
+                                <rect key="frame" x="77" y="268" width="260" height="46.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
@@ -113,7 +113,7 @@
                                 <rect key="frame" x="20" y="40" width="374" height="66"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2ax-NG-qi1">
-                                        <rect key="frame" x="128" y="0.0" width="119" height="20"/>
+                                        <rect key="frame" x="127.66666666666667" y="0.0" width="119.00000000000001" height="20"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desired League:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07d-fT-e6L">
                                         <rect key="frame" x="112" y="46" width="150" height="20"/>
@@ -176,6 +176,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="gZ6-HP-YTG" eventType="touchUpInside" id="i0L-GG-eqn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcR-VY-XyU">
                                 <rect key="frame" x="20" y="30" width="29" height="24"/>
@@ -208,6 +211,9 @@
                             <constraint firstItem="gEt-yf-SeM" firstAttribute="leading" secondItem="8Wu-tq-x9Q" secondAttribute="leadingMargin" id="yhc-gY-TNT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="BHy-in-Lhf" kind="show" identifier="skillVCSegue" id="DYJ-gu-dzV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzv-Wy-dDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="rJu-fS-uzf" userLabel="Exit" sceneMemberID="exit"/>
@@ -233,7 +239,7 @@
                                 <rect key="frame" x="20" y="40" width="374" height="66"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="1d8-F9-m6i">
-                                        <rect key="frame" x="128" y="0.0" width="119" height="20"/>
+                                        <rect key="frame" x="127.66666666666667" y="0.0" width="119.00000000000001" height="20"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pno-5o-bl3">
                                         <rect key="frame" x="112" y="46" width="150" height="20"/>
@@ -251,7 +257,7 @@
                                 <rect key="frame" x="20" y="156" width="374" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thm-Il-Y8M" customClass="BorderButton" customModule="App_Swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="174.66666666666666" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40303938360000002" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="92D-Z3-3Hs"/>
@@ -262,7 +268,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUp-an-IXw" customClass="BorderButton" customModule="App_Swoosh" customModuleProvider="target">
-                                        <rect key="frame" x="200" y="0.0" width="174" height="50"/>
+                                        <rect key="frame" x="199.66666666666663" y="0.0" width="174.33333333333337" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40303938360000002" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="pk4-J2-9j0"/>
